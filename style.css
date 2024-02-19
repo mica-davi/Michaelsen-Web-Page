@@ -180,15 +180,9 @@ body{
     transform: translateY(0);
   }
   25%{
-    transform: translateY(-10);
+    transform: translateY(-10px);
   }
-  50% {
-    transform: translateY(0);
-  }
-  75%{
-    transform: translateY(10px);
-  }
-  100%{
+  50%{
     transform: translateY(0);
   }
 }
@@ -198,9 +192,9 @@ body{
 
   display: inline-block;
   animation-name: nameAnim;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-delay: var(--anim-delay);
-  animation-timing-function: ease;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
 
   color: var(--clr-font-100);
