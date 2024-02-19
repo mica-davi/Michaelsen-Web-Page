@@ -177,13 +177,19 @@ body{
 
 @keyframes nameAnim{
   0%{
-    transform: translateY(9px);
+    transform: translateY(0);
+  }
+  25%{
+    transform: translateY(-10);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(0);
+  }
+  75%{
+    transform: translateY(10px);
   }
   100%{
-    transform: translateY(10px);
+    transform: translateY(0);
   }
 }
 
