@@ -46,6 +46,8 @@ ol[role='list'] {
 }
 
 /* Set core root defaults */
+
+html,
 html:focus-within {
   scroll-behavior: smooth;
 }
@@ -110,18 +112,9 @@ body{
   flex-direction: row;
   justify-content: space-between;
   margin-inline: auto;
-  width: 80%;
+  width: 70%;
 }
 
-.button-default{
-  height: 12rem;
-  width: 14rem;
-  margin-top: var(--size-1200);
-  background-color: var(--clr-accent-200);
-  font-size: var(--fs-600);
-  color: var(--clr-font-100);
-  cursor: pointer;
-}
 .main-section{
   display: flex;
   flex-direction: column;
@@ -138,15 +131,32 @@ body{
   font-size: var(--fs-600);
   max-width: 75ch;
 }
+.important-text{
+  color: var(--clr-font-100);
+}
+
 .skills-text{
   text-align: center;
   font-size: var(--fs-600);
   max-width: 75ch;
 }
 
+.button-default{
+  height: 8rem;
+  width: 10rem;
+  margin-top: var(--size-1200);
+  background-color: var(--clr-accent-200);
+  font-size: var(--fs-600);
+  color: var(--clr-font-100);
+  cursor: pointer;
+
+  transition-duration: .2s;
+}
+
 .button-default:hover,
 .button-default:focus-visible{
-  background-color: var(--clr-accent-300);
+  box-shadow: -2px 42px 72px -14px rgba(0,0,0,0.75);
+  transform: translateY(-5px);
 }
 
 .container{
@@ -250,6 +260,10 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.icon{
+  width: 3em;
 }
 
 /* Utility Classes */
