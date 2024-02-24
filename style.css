@@ -300,7 +300,7 @@ body{
   border: 1px var(--clr-bg-900) solid;
   font-size: var(--fs-300);
   border-radius: 5% 0 0 5%;
-  background-color: var(--clr-accent-200);
+  background-color: var(--clr-accent-300);
   padding: var(--size-100);
   color: var(--clr-font-100);
 }
