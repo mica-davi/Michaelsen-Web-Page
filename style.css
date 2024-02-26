@@ -284,7 +284,7 @@ body{
   justify-content: space-between;
 }
 
-@media(max-width: 45em){
+@media(max-width: 50em){
   .footer-display{
     flex-direction: column;
     gap: var(--sm-gap);
@@ -335,7 +335,7 @@ body{
   width: 35em;
 }
 
-@media (max-width: 45em){
+@media (max-width: 50em){
   .education-title{
     width: 8em;
   }
