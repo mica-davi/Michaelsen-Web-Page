@@ -319,6 +319,12 @@ body{
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
+@media (max-width: 50em){
+  .education-item{
+    box-shadow: none;
+  }
+}
+
 .education-title{
   width: 10em;
   border: 1px var(--clr-bg-900) solid;
