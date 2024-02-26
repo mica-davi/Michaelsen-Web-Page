@@ -303,6 +303,7 @@ body{
   text-align: center;
   color: var(--clr-font-200);
   font-size: var(--fs-600);
+  text-shadow: 6px 5px 2px #141414;
 }
 
 .educations-wrapper{
@@ -315,6 +316,7 @@ body{
 .education-item{
   display: flex;
   flex-direction: row;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .education-title{
