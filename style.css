@@ -337,10 +337,10 @@ body{
 
 @media (max-width: 50em){
   .education-title{
-    width: 8em;
+    width: 7em;
   }
   .education-text{
-    width: 17em;
+    width: 15em;
   }
 }
 
