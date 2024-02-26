@@ -239,12 +239,23 @@ body{
 
 .footer-section{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   bottom: 0;
   width: 100%;
   padding: var(--size-700) 0;
   background-color: var(--clr-section-1000);
 }
+
+.footer-display{
+  --gap: 0;
+  --sm-gap: 0;
+
+  gap: var(--gap);
+  display: flex;
+  flex-direction: row;
+}
+
+
 
 .footer-social-links{
   display: flex;
@@ -271,6 +282,17 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media(max-width: 60em){
+  .footer-display{
+    flex-direction: column;
+    gap: var(--sm-gap);
+  }
+
+  .footer-contacts{
+    text-align: center;
+  }
 }
 
 .icon{
