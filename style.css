@@ -407,3 +407,18 @@ body{
   display: flex;
   flex-direction: row;
 }
+
+/* Scroll animations */
+
+.hidden {
+  --delay: 1s;
+
+  opacity: 0;
+  filter: blur(1px);
+  transition: all var(--delay);
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0px);
+}

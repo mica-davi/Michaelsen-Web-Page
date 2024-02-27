@@ -16,3 +16,17 @@ function ChangeToGame(skill){
     let newText = "Há anos estudo sobre desenvolvimento de jogos na <span class='important-text'>Unity</span>, principalmente <span class='important-text'>jogos em 2D</span>. Estudar programação de jogos e game design é um hobby que pretendo tornar <span class='important-text'>trabalho!</span>";
     document.getElementById("skill_text").innerHTML = newText;
 }
+
+
+const observer = new IntersectionObserver((entries) =>{
+    entries.forEach((entry) => {
+        if (entry.isIntersecting){
+            entry.target.classList.add("show");
+        }else{
+            entry.target.classList.remove("show");
+        }
+    });
+});
+
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((el) => observer.observe(el));

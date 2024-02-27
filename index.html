@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <script type="module" src="./main.js"></script>
+    <script defer type="module" src="./main.js"></script>
 
     <nav>
       <div class="top-nav">
@@ -43,8 +43,8 @@
         <div class="main-section | section-color--default section-boxshadow">
 
           <div class="about-container | vertical-margin--700" id="about">
-            <h2 class="default-header | vertical-margin--900">SOBRE MIM</h2>
-            <p class="about-text | grid-center">Olá, meu nome é <span class="important-text">Daví Moraes Michaelsen</span>, tenho <span class="important-text">19 anos</span> e moro em <span class="important-text">Esteio/RS.</span>
+            <h2 class="default-header | vertical-margin--900 hidden">SOBRE MIM</h2>
+            <p class="about-text | grid-center hidden">Olá, meu nome é <span class="important-text">Daví Moraes Michaelsen</span>, tenho <span class="important-text">19 anos</span> e moro em <span class="important-text">Esteio/RS.</span>
               Me interesso pelo mundo do desenvolvimento desde pequeno, e apesar de ter
               focado mais na parte de <span class="important-text">desenvolvimento de jogos</span>, possuo um bom conhecimento em outras
               áreas. Tenho também familiaridade com a <span class="important-text">língua inglesa</span>, além de ter feito curso,
@@ -53,25 +53,25 @@
           </div>
 
           <Div class="skills-wrapper | vertical-margin--900" id="skills">
-            <button class="button-default" id="c_button">C#</button>
-            <button class="button-default" id="web_button">Web dev</button>
-            <button class="button-default" id="game_button">Game Dev</button>
+            <button class="button-default hidden" id="c_button">C#</button>
+            <button class="button-default hidden" id="web_button">Web dev</button>
+            <button class="button-default hidden" id="game_button">Game Dev</button>
           </Div>
-          <p id="skill_text" class="skills-text | font-color--default vertical-margin--1200"><span class="important-text">Clique em um dos botões acima</span> para ver com mais detalhes.</p>
+          <p id="skill_text" class="skills-text | font-color--default vertical-margin--1200 hidden"><span class="important-text">Clique em um dos botões acima</span> para ver com mais detalhes.</p>
 
           <div id="educations">
-            <h2 class="default-header | vertical-margin--1200">FORMAÇÕES</h2>
+            <h2 class="default-header | vertical-margin--1200 hidden">FORMAÇÕES</h2>
 
             <div class="educations-wrapper vertical-margin--900">
-              <div class="education-item">
+              <div class="education-item hidden" style="--delay: 1;">
                 <h3 class="education-title">Ciência da Computação</h3>
                 <p class="education-text">No momento estou cursando meu ensino superior em Ciência da Computação, onde eu aprendo sobre desenvolvimento web, mobile, usabilidade, teoria da computação, estrutura de dados e mais diversas outras matérias.</p>
               </div>
-              <div class="education-item">
+              <div class="education-item hidden --delay: 1.4;">
                 <h3 class="education-title">Desenvolvimento de Sistemas</h3>
                 <p class="education-text">Curso técnico profissionalizante, onde aprendi sobre todas as etapas do desenvolvimento de um software, desde o planejamento, passando pelo desenvolvimento, pelos testes, implantação, análise e relatório.</p>
               </div>
-              <div class="education-item">
+              <div class="education-item hidden --delay: 1.8;">
                 <h3 class="education-title">Inglês</h3>
                 <p class="education-text">Possuo a qualificação de curso de Inglês, mas acredito que minha habilidade não se limita somente a ele, já que constantemente consumo conteúdo em inglês e me sinto confiante para me comunicar.</p>
               </div>
