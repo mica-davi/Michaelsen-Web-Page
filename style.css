@@ -178,6 +178,12 @@ body{
   margin-inline: auto;
 }
 
+@media (max-width: 50em){
+  .container{
+    width: 100%;
+  }
+}
+
 .my-name-header{
   text-align: center;
   font-size: var(--fs-600);
